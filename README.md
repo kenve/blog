@@ -7,6 +7,7 @@
 ### 2018
 
 - [动手写一个 webpack 插件](./2018/write-webpack-plugin.md)
+- [Nexus 搭建 NPM 私服](./2018/build-npm-private-service/index.md)
 
 ### 2017
 
