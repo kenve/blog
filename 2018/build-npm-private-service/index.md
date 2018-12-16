@@ -17,7 +17,7 @@
 
 ### 搭建
 
-使用官方的 Docker 镜像 [sonatype/nexus](https://hub.docker.com/r/sonatype/nexus/) 进行搭建。（略）
+使用官方的 Docker 镜像 [sonatype/nexus](https://hub.docker.com/r/sonatype/nexus/) 进行搭建。（略）
 
 ### 登录
 
