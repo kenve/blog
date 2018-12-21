@@ -280,7 +280,7 @@ $ git stash list
 
 一是用`git stash apply`恢复，但是恢复后，stash 内容并不删除，你需要用`git stash drop`来删除；
 
-另一种方式是用`git stash po`p，恢复的同时把 stash 内容也删了：
+另一种方式是用 `git stash pop` ，恢复的同时把 stash 内容也删了：
 
 ```bash
 $ git stash pop
