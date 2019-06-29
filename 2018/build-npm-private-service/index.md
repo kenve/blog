@@ -104,6 +104,7 @@ npm --loglevel info install moment --registry=http://127.0.0.1:8081/content/grou
 - 某些版本不能安装 `@` 开头的 npm 包
 - 某些版本无法使用淘宝源
 - 某些版本无法安装某些 npm 包，比如：rc-select
+- 有时间 npm 上小时前更新了的包，在私服找不到。可以在 proxy 的 Expiration setting 中设置 Not Found Cache TTL 的时间 缩短。
 
 经过使用了十几个版本的 [Docker nexus 镜像](https://hub.docker.com/r/sonatype/nexus/) 进行测试，终于测试到有一个版本能够完美支持的， 即 **2.14.5-02**。:joy:
 

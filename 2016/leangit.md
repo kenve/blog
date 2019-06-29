@@ -262,7 +262,7 @@ $ git stash
 
 现在，用`git status`查看工作区，就是干净的（除非有没有被 Git 管理的文件），因此可以放心地创建分支来修复 bug。
 
-首先确定要在哪个分支上修复 bug，假定需要在`master`分支上修复，就从`maste`r 创建临时分支：
+首先确定要在哪个分支上修复 bug，假定需要在`master`分支上修复，就从 `master` 创建临时分支：
 
 ```bash
 $ git checkout master
